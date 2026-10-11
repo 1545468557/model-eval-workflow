@@ -1,0 +1,35 @@
+{
+  "case_ids": [
+    "T1",
+    "T2"
+  ],
+  "models": [
+    {
+      "id": "synthetic-A",
+      "results": [
+        {
+          "case_id": "T1",
+          "verdict": "pass"
+        },
+        {
+          "case_id": "T2",
+          "verdict": "pending"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-B",
+      "results": [
+        {
+          "case_id": "T1",
+          "verdict": "pass"
+        },
+        {
+          "case_id": "T2",
+          "verdict": "fail",
+          "hard_veto": true
+        }
+      ]
+    }
+  ]
+}

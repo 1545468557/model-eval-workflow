@@ -1,0 +1,35 @@
+{
+  "summaries": [
+    {
+      "model": "synthetic-A",
+      "counts": {
+        "pass": 1,
+        "fail": 0,
+        "pending": 1
+      },
+      "pass_rate": 0.5,
+      "veto_cases": [],
+      "eligible": false,
+      "cost": {
+        "status": "unknown"
+      }
+    },
+    {
+      "model": "synthetic-B",
+      "counts": {
+        "pass": 1,
+        "fail": 1,
+        "pending": 0
+      },
+      "pass_rate": 0.5,
+      "veto_cases": [
+        "T2"
+      ],
+      "eligible": false,
+      "cost": {
+        "status": "unknown"
+      }
+    }
+  ],
+  "limits": "Recorded judgments only; no model API called. Pending never counted as passing; eligibility is separate from ranking."
+}
